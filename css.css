@@ -1,0 +1,78 @@
+.calculator {
+  width: 300px;
+  margin-top: 60px;
+  margin-left: 180px;
+  padding: 10px;
+  text-align: center;
+
+}
+.out{
+  margin: auto;
+  height: 500px;
+width: 700px;
+  background-color: rgb(165, 163, 163);
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+
+}
+
+#display {
+  flex: 1;
+  height: 55px;
+  width: 30px;
+  padding: 10px;
+  font-size: 18px;
+  border-color: rgb(250, 252, 252);
+}
+
+.ac-button {
+  width: 74px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgba(52, 224, 167, 0.829);
+  border-color: rgba(52, 224, 167, 0.829);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-color: rgb(0, 4, 7);
+  
+}
+
+button {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  font-size: 27px;
+  background-color: black;
+}
+button:not([onclick*="clearDisplay"]) {
+  color: white;
+}
+
+button[onclick*="+"] {
+  background-color: rgba(66, 66, 65, 0.87);
+}
+
+button[onclick*="-"] {
+  background-color: rgba(66, 66, 65, 0.87);
+}
+
+button[onclick*="*"] {
+  background-color: rgba(66, 66, 65, 0.87);
+}
+
+button[onclick*="/"] {
+  background-color: rgba(66, 66, 65, 0.87);
+}
+
+
+
+
+
+
